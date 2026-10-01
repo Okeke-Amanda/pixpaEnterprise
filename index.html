@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+        <i class="fa-solid fa-bars" id="navbar-icon" onclick="showMenu()"></i>
+
+            <header id="header">
+                <nav class="navbar">
+                    <h2 class="logo">PIXPA ENTERPRISE</h2>
+
+                    <div class="nav-link" id="navLink">
+                        <a href=""><p>Product</p></a>
+                        <a href=""><p>Templates</p></a>
+                        <a href=""><p>Examples</p></a>
+                        <a href=""><p>Pricing</p></a>
+                        
+                    </div>
+                </nav>
+            </header>
+
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>If you have any questions or need help, please fill out the
+                    form below. We do our best to respond within 1 business day.</p>
+                <p>Name</p>
+                <input id="name" type="text" placeholder="Enter your name" required>
+
+                <p>Email Address</p>
+                <input id="email" type="email" placeholder="Enter your email" required>
+
+                <select name="" id="" class="select">
+                    <option value="">Select a category</option>
+                    <option value="">Front end developer</option>
+                    <option value="">Backend developer</option>
+                    <option value="">Fullstack developer</option>
+                </select>
+
+                <p>Write a message</p>
+                <textarea name="" id="message" placeholder="message....." required></textarea>
+                <sub id="button"> </sub>
+                <p><b>Message has to be minimum 40 characters.</b> 0/40
+                    characters minimum.</p>
+                <button onclick="buttonId()" >Send Message</button>
+                
+            </div>
+
+            <footer>
+                <p> &copy; 2026. PIXPA.</p>
+
+            </footer>
+        </div>
+
+        <script src="appp.js"></script>
+
+
+
+    </body>
+</html>
