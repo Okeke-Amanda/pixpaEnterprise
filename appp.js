@@ -5,15 +5,18 @@ let button = document.getElementById("button");
 
 function buttonId(){
   if(nameId.value === ""){
-    button.innerText = "please fill in the gap!!";
+    button.innerText = "Invalid input!!";
   }
   else if(email.value ===""){
-    button.innerText = "please fill in the gap!!";
+    button.innerText = "Invalid input!!";
   }
   else if(message.value ===""){
-    button.innerText = "please fill in the gap!!";
+    button.innerText = "Invalid input!!";
   }
-  else{
+    else if(message.length < 40){
+      button.innerText ="Invalid input!!";
+    }
+    else{
           document.getElementsByTagName("button").innerText=alert("Message sent successsfully!!!");
   }
 }
