@@ -16,8 +16,8 @@ function buttonId(){
     else if(message.value.length < 40){
       button.innerText ="Invalid input!!";
     }
-    else{
-          document.getElementsByTagName("button").innerText=alert("Message sent successsfully!!!");
+  else{
+    alert("Message sent successsfully!!!");
   }
 }
 const navbarIcon = document.getElementById('navbar-icon');
