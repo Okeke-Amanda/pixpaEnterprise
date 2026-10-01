@@ -65,7 +65,7 @@ button:hover {
   background-color: #6a4b5a;
 }
 button:active {
-  transform : scale(0.92);
+  transform: scale(0.92);
 }
 input,
 textarea {
@@ -86,6 +86,7 @@ footer {
   margin-top: 70px;
   text-align: center;
   padding: 20px 0;
+  bottom: 0;
 }
 .nav-link {
   display: flex;
