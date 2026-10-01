@@ -78,7 +78,6 @@ textarea {
   border-radius: 10px;
   border: none;
   background-color: bisque;
-  /* margin-top: 5px; */
   margin-bottom: 15px;
 }
 
@@ -126,6 +125,8 @@ body form div p {
 }   
 footer{
   margin-top: 25px;
+  margin-bottom: 0;
+  
 }
 
 nav {
