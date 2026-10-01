@@ -67,6 +67,7 @@ button:hover {
 }
 button:active {
   transform: scale(0.92);
+  outline: none;
 }
 input,
 textarea {
