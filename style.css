@@ -1,15 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 header {
   background-color: bisque;
   color: black; 
   position: fixed; 
   transition: .5s;
-  /* height: fit-content; */
   width: 100%;
 }
 nav {
@@ -29,9 +28,9 @@ a {
   text-decoration-line: none;
   color: black;
 }
-.fa-bars{
-      display: none;
-          position: fixed;
+.fa-bars {
+  display: none;
+  position: fixed;
         
 }
 .select {
