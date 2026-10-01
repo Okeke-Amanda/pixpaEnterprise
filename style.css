@@ -64,6 +64,9 @@ button {
 button:hover {
   background-color: #6a4b5a;
 }
+button:active {
+  transform : scale(0.92);
+}
 input,
 textarea {
   padding-left: 10px;
