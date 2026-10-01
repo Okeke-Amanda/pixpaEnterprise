@@ -1,4 +1,4 @@
-*{
+6*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -122,6 +122,9 @@ body form div p {
           flex-direction: column;
           padding: 15px 0;
 }   
+  i {
+    margin-top: 8px;
+    }
 footer{
   margin-top: 25px;
 }
