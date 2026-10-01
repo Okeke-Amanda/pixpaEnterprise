@@ -4,9 +4,6 @@
   box-sizing: border-box;
    font-family: "Nunito", sans-serif;
 }
-body {
-  height: 100vh;
-}
 header {
   background-color: bisque;
   color: black; 
@@ -88,6 +85,8 @@ footer {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 0;
+  bottom: 0;
+  position: fixed;
 }
 .nav-link {
   display: flex;
@@ -111,7 +110,7 @@ body form div p {
   width: 100%;
   padding-left: 25px;
   padding-right: 25px;
-
+  margin-bottom: 20px;
   padding-top: 120px;
   padding-bottom: 50px;
   align-items: center;
