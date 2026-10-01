@@ -83,7 +83,7 @@ textarea {
 footer {
   background-color: bisque;
   width: 100%;
-  margin-top: 25px;
+  margin-top: 70px;
   text-align: center;
   padding: 20px 0;
   position: fixed;
@@ -122,6 +122,9 @@ body form div p {
           flex-direction: column;
           padding: 15px 0;
 }   
+footer{
+  maargin-top: 25px;
+}
 
 nav {
  display: block;
