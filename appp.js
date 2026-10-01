@@ -13,7 +13,7 @@ function buttonId(){
   else if(message.value ===""){
     button.innerText = "Invalid input!!";
   }
-    else if(message.length < 40){
+    else if(message.value.length < 40){
       button.innerText ="Invalid input!!";
     }
     else{
