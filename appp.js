@@ -15,9 +15,6 @@ function buttonId(){
   }
   else{
           document.getElementsByTagName("button").innerText=alert("Message sent successsfully!!!");
-          
-
-
   }
 }
 const navbarIcon = document.getElementById('navbar-icon');
@@ -25,9 +22,14 @@ const header = document.getElementById('header');
 const navLink = document.getElementById('navLink');
  
 function showMenu() {
+  navLink.classList.toggle("active");
   header.style.height = 'fit-content';
   header.style.transition = '500ms';
-          navLink.style.display = 'flex';
+          // navLink.style.display = 'flex';
 
           console.log('clicked');
 }
+
+
+
+
