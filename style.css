@@ -7,9 +7,6 @@
 body {
   height: 100vh;
 }
-.wrapper {
-          
-}
 header {
   background-color: bisque;
   color: black; 
@@ -113,6 +110,7 @@ body form div p {
   padding-right: 25px;
 
   padding-top: 120px;
+  padding-bottom: 100px;
   align-items: center;
   justify-content: center;
 }
@@ -123,7 +121,7 @@ body form div p {
           padding: 15px 0;
 }   
 footer{
-  maargin-top: 25px;
+  margin-top: 25px;
 }
 
 nav {
