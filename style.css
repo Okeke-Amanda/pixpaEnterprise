@@ -4,8 +4,11 @@
   box-sizing: border-box;
    font-family: "Nunito", sans-serif;
 }
+body {
+  height: 100vh;
+}
 .wrapper {
-          position: relative;
+          
 }
 header {
   background-color: bisque;
@@ -80,14 +83,19 @@ textarea {
 footer {
   background-color: bisque;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  margin-top: 25px;
   text-align: center;
   padding: 20px 0;
+  position: fixed;
+  bottom: 0;
 }
 .nav-link {
   display: flex;
   gap: 30px;
+}
+
+.nav-link.active {
+  display: flex;
 }
 sub {
   color: red;
@@ -101,8 +109,8 @@ body form div p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 
   padding-top: 120px;
   align-items: center;
